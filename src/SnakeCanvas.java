@@ -72,6 +72,7 @@ public class SnakeCanvas extends Canvas implements Runnable, KeyListener {
 			mainThread.start();
 			
 			oranges.add(new Point(10,10));	// if we have no oranges, shit crashes ... 
+			System.out.println("Just a test line to show at the start");
 		}
 		
 		if (isInMenu){
